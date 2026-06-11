@@ -1,6 +1,5 @@
 [build]
-builder = "nixpacks"
-nixpacksPlan = "python"
+builder = "RAILPACK"
 
 [deploy]
 startCommand = "gunicorn api:app"
