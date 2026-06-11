@@ -48,4 +48,3 @@ def test_wordcount_counts_correctly():
 def test_wordcount_missing_file():
     result = wordcount("nonexistent.txt")
     assert "Error" in result
-    
