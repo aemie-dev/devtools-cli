@@ -28,3 +28,4 @@ def wordcount(filepath: str) -> str:
     lines = len(content.splitlines())
     chars = len(content)
     return f"{words} words, {lines} lines, {chars} characters"
+    
