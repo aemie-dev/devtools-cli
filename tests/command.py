@@ -1,4 +1,3 @@
-import pytest
 from devtools.commands import hello, generate_uuid, slugify, wordcount
 import tempfile
 import os
@@ -17,7 +16,7 @@ def test_hello_default():
 def test_uuid_format():
     result = generate_uuid()
     parts = result.split("-")
-    assert len(parts) == 5  # uuid4 has 5 sections
+    assert len(parts) == 5
 
 
 def test_uuid_unique():
