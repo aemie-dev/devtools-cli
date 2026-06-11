@@ -1,0 +1,7 @@
+[build]
+builder = "nixpacks"
+nixpacksPlan = "python"
+
+[deploy]
+startCommand = "gunicorn api:app"
+healthcheckPath = "/"
