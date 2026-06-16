@@ -9,7 +9,6 @@ and deployment workflows work.
 
 - Python project structure with packages and modules
 - Writing unit tests with pytest
-- Code linting with flake8
 - Automated CI pipeline using GitHub Actions
 - Automatic deployment to Railway via CD pipeline
 - Every push to main triggers the pipeline automatically
